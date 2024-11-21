@@ -25,13 +25,17 @@ cd E2E-test-assignment
 ```
 pnpm install
 ```
-**3**. __Run the tests:__
+**3**. __Install browsers:__ Playwright requires browser binaries to execute tests. Install them using the following command:
+```
+pnpm exec playwright install
+```
+**4**. __Run the tests:__
 ```
 pnpm test
 ```
 This command will run all the tests in Chromium browser. 
 
-**3.1**. __Running Tests in Different Browsers__
+**4.1**. __Running Tests in Different Browsers__
 
 __Run tests in WebKit:__
 ```
